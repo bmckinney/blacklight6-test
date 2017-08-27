@@ -62,5 +62,5 @@ gem 'devise'
 gem 'devise-guests', '~> 0.5'
 gem 'blacklight-marc', '~> 6.1'
 
-#gem 'ebsco-eds', '~> 0.1.9.pre'
-gem 'ebsco-eds',  :path => '/Users/employee/projects/ebsco-eds-api-gem'
+gem 'ebsco-eds', '~> 0.3.4.pre'
+#gem 'ebsco-eds',  :path => '/Users/employee/projects/ebsco-eds-api-gem'
