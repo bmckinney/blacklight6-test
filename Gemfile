@@ -52,8 +52,7 @@ end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
-gem 'bootstrap', '~> 4.0.0.beta'
-gem 'blacklight', '~> 7.0.0.alpha'
+gem 'blacklight', '~> 5.19.2'
 group :development, :test do
   gem 'solr_wrapper', '>= 0.3'
 end
