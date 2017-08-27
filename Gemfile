@@ -52,7 +52,7 @@ end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
-gem 'blacklight', '>= 6.11.0'
+gem 'blacklight', '~> 7.0.0.alpha'
 group :development, :test do
   gem 'solr_wrapper', '>= 0.3'
 end
@@ -60,7 +60,7 @@ end
 gem 'rsolr', '~> 1.0'
 gem 'devise'
 gem 'devise-guests', '~> 0.5'
-gem 'blacklight-marc', '~> 7.0.0.alpha'
+gem 'blacklight-marc', '~> 6.1'
 
 gem 'ebsco-eds', '~> 0.3.4.pre'
 #gem 'ebsco-eds',  :path => '/Users/employee/projects/ebsco-eds-api-gem'
